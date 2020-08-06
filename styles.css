@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+ul{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    float: left;
+}
+li{
+    float: left;
+}
+
+/* li a{ */
+    /* display: block; */
+    /* color: white; */
+    /* text-align: center; */
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+    /* background-color: black; */
+/* } */
+
+li a:hover{
+    background-color: red;
+    color: black;
+}
+
+li a:active{10
+    color: black;
+    background-color: chartreuse;
+}
+
+.cont{
+    width: 10%;
+    background-color: darkred;
+}
+.fifty{
+    /* width: 10%; */
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: darkviolet;
+}
+.here{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    background-color: red;
+}
+.here2{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    background-color: black;
+}
